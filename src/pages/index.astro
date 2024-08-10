@@ -1,0 +1,19 @@
+---
+import HexColorPicker from '../components/colorPicker.tsx';
+---
+
+
+<div class="bg-white py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:text-center">
+      <h2 class="text-base font-semibold leading-7 text-indigo-600">&#127752; Base Colors Memory Checker &#x1F308;</h2>
+      <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Instant verification of your brain's memory</p>
+      <p class="mt-6 text-lg leading-8 text-gray-600">Simply by choosing three colors, then reselect it again after hiding the initial selection!</p>
+    </div>
+    <div class="mx-auto mt-8 max-w-2xl lg:max-w-4xl">
+	
+	<HexColorPicker client:only='react' />
+	
+    </div>
+  </div>
+</div>
